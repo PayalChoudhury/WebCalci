@@ -1,0 +1,103 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right bottom, #a8dee0 , #f9e2ae);
+    display:inline-block;
+}
+.calci:hover{
+    box-shadow: 1px 1px 8px 1px black;
+    background:#e2e5de ;
+}
+.calci{
+   border-radius: 10%;
+   width: 400px;
+   height: 400px;
+   position: absolute;
+   padding: 20px;
+   top: 20%;
+   left: 50%;
+   margin: 10px;
+   /* opacity: 0.8 ;  */
+   text-align: center;
+   
+}
+.bt_Design{
+    font-size: 25px;
+    width: 45px;
+    height: 40px;
+    margin: 11px;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+}
+.calci:hover .bt_Design{
+    box-shadow: 1px 1px 2px 1px black;
+}
+.calci:hover .operators{
+    box-shadow: 1px 1px 2px 1px black;
+}
+#display{
+   height: 70px;
+   border: none;
+   border-radius: 5%;
+   width: 270px;
+   font-size: 25px;
+   text-align: right;
+}
+.operators{
+    font-size: 25px;
+    width: 45px;
+    height: 40px;
+    margin: 11px;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+    /* vertical-align: middle; */
+}
+.bt_Design:hover
+{
+    opacity:0.8;
+    cursor: pointer;
+}
+.bt_Design:active
+{
+    opacity:0.5;
+}
+.operators:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.operators:active{
+    opacity: 0.5;
+    
+}
+h1{
+    width: 400px;
+    background-image: linear-gradient(to right, #0ca3a9 , #dab254); 
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: 300px; 
+    margin-left: 200px;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    font-family: sans-serif;
+    font-weight: 700px;
+    font-size: 70;
+    
+}
+h2{
+
+    width: 400px;
+    background-image: linear-gradient(to right, #0ca3a9 , #dab254);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: -3px; 
+    margin-left: 250px;
+    font-family: sans-serif;
+    font-weight: 700px;
+    font-size: 30;
+    
+}
